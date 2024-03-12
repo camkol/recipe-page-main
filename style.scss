@@ -31,7 +31,7 @@ body {
     margin: 48px auto;
     background-color: $background-color_1;
     color: $color_6;
-    padding: 24px 48px;
+    padding: 36px;
     h1,
     h2 {
       font-family: $font-family_2;
@@ -72,7 +72,7 @@ body {
       ol {
         padding: 0 20px;
         li {
-          padding: 5px;
+          padding: 0;
         }
         li {
           color: $color_7;

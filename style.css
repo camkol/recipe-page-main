@@ -10,7 +10,7 @@ body section {
   margin: 48px auto;
   background-color: white;
   color: hsl(24, 5%, 18%);
-  padding: 24px 48px;
+  padding: 36px;
 }
 body section h1,
 body section h2 {
@@ -47,7 +47,7 @@ body section #instructions ol {
   padding: 0 20px;
 }
 body section #instructions ol li {
-  padding: 5px;
+  padding: 0;
 }
 body section #instructions ol li {
   color: hsl(14, 45%, 36%);
