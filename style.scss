@@ -34,22 +34,6 @@ body {
     background-color: $background-color_1;
     color: $color_6;
     padding: 36px;
-
-    h1,
-    h2 {
-      font-family: $font-family_2;
-    }
-    h2 {
-      color: $color_7;
-    }
-    h1 {
-      font-size: 2.5em;
-      margin: 16px 0;
-    }
-
-    h3 {
-      color: $color_7;
-    }
     img,
     #preparation {
       border-radius: 18px;
@@ -59,62 +43,114 @@ body {
         width: 100%;
       }
     }
-    #preparation {
-      background-color: $background-color_2;
-      padding: 24px;
+    #meat {
+      hr {
+        color: $color_5;
+        background-color: $background-color_5;
+      }
+      h1,
+      h2 {
+        font-family: $font-family_2;
+      }
+      h2 {
+        color: $color_7;
+      }
+      h1 {
+        font-size: 2.5em;
+        margin: 16px 0;
+      }
+
       h3 {
-        color: $color_8;
-        margin: 0;
+        color: $color_7;
       }
-      ul {
-        padding: 0 20px;
-        margin-bottom: 0;
-        li {
-          padding: 5px;
+
+      #preparation {
+        background-color: $background-color_2;
+        padding: 24px;
+        h3 {
+          color: $color_8;
+          margin: 0;
+        }
+        ul {
+          padding: 0 20px;
+          margin-bottom: 0;
+          li {
+            padding: 5px;
+          }
         }
       }
-    }
-    #ingredients {
-      ul {
-        padding: 0 20px;
-        li {
-          padding: 5px;
+      #ingredients {
+        ul {
+          padding: 0 20px;
+          li {
+            padding: 5px;
+          }
         }
       }
-    }
-    #instructions {
-      ol {
-        padding: 0 20px;
-        font-weight: 600;
-        li {
-          padding: 0;
+      #instructions {
+        ol {
+          padding: 0 20px;
+          font-weight: 600;
+          li {
+            padding: 0;
+          }
+          li {
+            color: $color_7;
+            p {
+              color: $color_6;
+              font-weight: 400;
+              strong {
+                font-weight: 600;
+              }
+            }
+          }
         }
-        li {
-          color: $color_7;
-          p {
-            color: $color_6;
-            font-weight: 400;
-            strong {
-              font-weight: 600;
+      }
+      #nutrition {
+        #nutty {
+          .nuts {
+            display: flex;
+            div {
+              width: 50%;
+              margin: 6px auto 6px 24px;
+            }
+
+            .seed {
+            }
+            .sprout {
+              color: $color_7;
+              font-weight: 700;
             }
           }
         }
       }
     }
-    #nutrition {
-      #nutty {
-        .nuts {
-          display: flex;
-          div {
-            width: 50%;
-            margin: 6px auto 6px 24px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body {
+    section {
+      margin: 0;
+      border-radius: 0;
+      width: 100%;
+      padding: 0;
+      img {
+        border-radius: 0;
+      }
+      #meat {
+        padding: 30px;
+        h1 {
+          font-size: 1.9em;
+        }
+        #preparation,
+        #ingredients {
+          ul {
+            padding: 0 0 0 20px;
           }
-
-          .seed {
-          }
-          .sprout {
-            color: $color_7;
-            font-weight: 700;
+        }
+        #instructions {
+          ol {
+            padding: 0 0 0 20px;
           }
         }
       }

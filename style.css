@@ -14,20 +14,6 @@ body section {
   color: hsl(24, 5%, 18%);
   padding: 36px;
 }
-body section h1,
-body section h2 {
-  font-family: "Young Serif", serif;
-}
-body section h2 {
-  color: hsl(14, 45%, 36%);
-}
-body section h1 {
-  font-size: 2.5em;
-  margin: 16px 0;
-}
-body section h3 {
-  color: hsl(14, 45%, 36%);
-}
 body section img,
 body section #preparation {
   border-radius: 18px;
@@ -35,52 +21,95 @@ body section #preparation {
 body section #image img {
   width: 100%;
 }
-body section #preparation {
+body section #meat hr {
+  color: hsl(30, 10%, 34%);
+  background-color: hsl(30, 10%, 34%);
+}
+body section #meat h1,
+body section #meat h2 {
+  font-family: "Young Serif", serif;
+}
+body section #meat h2 {
+  color: hsl(14, 45%, 36%);
+}
+body section #meat h1 {
+  font-size: 2.5em;
+  margin: 16px 0;
+}
+body section #meat h3 {
+  color: hsl(14, 45%, 36%);
+}
+body section #meat #preparation {
   background-color: hsl(330, 100%, 98%);
   padding: 24px;
 }
-body section #preparation h3 {
+body section #meat #preparation h3 {
   color: hsl(332, 51%, 32%);
   margin: 0;
 }
-body section #preparation ul {
+body section #meat #preparation ul {
   padding: 0 20px;
   margin-bottom: 0;
 }
-body section #preparation ul li {
+body section #meat #preparation ul li {
   padding: 5px;
 }
-body section #ingredients ul {
+body section #meat #ingredients ul {
   padding: 0 20px;
 }
-body section #ingredients ul li {
+body section #meat #ingredients ul li {
   padding: 5px;
 }
-body section #instructions ol {
+body section #meat #instructions ol {
   padding: 0 20px;
   font-weight: 600;
 }
-body section #instructions ol li {
+body section #meat #instructions ol li {
   padding: 0;
 }
-body section #instructions ol li {
+body section #meat #instructions ol li {
   color: hsl(14, 45%, 36%);
 }
-body section #instructions ol li p {
+body section #meat #instructions ol li p {
   color: hsl(24, 5%, 18%);
   font-weight: 400;
 }
-body section #instructions ol li p strong {
+body section #meat #instructions ol li p strong {
   font-weight: 600;
 }
-body section #nutrition #nutty .nuts {
+body section #meat #nutrition #nutty .nuts {
   display: flex;
 }
-body section #nutrition #nutty .nuts div {
+body section #meat #nutrition #nutty .nuts div {
   width: 50%;
   margin: 6px auto 6px 24px;
 }
-body section #nutrition #nutty .nuts .sprout {
+body section #meat #nutrition #nutty .nuts .sprout {
   color: hsl(14, 45%, 36%);
   font-weight: 700;
+}
+
+@media only screen and (max-width: 500px) {
+  body section {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+  }
+  body section img {
+    border-radius: 0;
+  }
+  body section #meat {
+    padding: 30px;
+  }
+  body section #meat h1 {
+    font-size: 1.9em;
+  }
+  body section #meat #preparation ul,
+  body section #meat #ingredients ul {
+    padding: 0 0 0 20px;
+  }
+  body section #meat #instructions ol {
+    padding: 0 0 0 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
