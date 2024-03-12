@@ -4,9 +4,11 @@ body {
   padding: 0;
   margin: 0;
   background-color: hsl(30, 54%, 90%);
+  font-weight: 400;
 }
 body section {
-  width: 505px;
+  border-radius: 24px;
+  width: 630px;
   margin: 48px auto;
   background-color: white;
   color: hsl(24, 5%, 18%);
@@ -19,20 +21,31 @@ body section h2 {
 body section h2 {
   color: hsl(14, 45%, 36%);
 }
+body section h1 {
+  font-size: 2.5em;
+  margin: 16px 0;
+}
 body section h3 {
   color: hsl(14, 45%, 36%);
+}
+body section img,
+body section #preparation {
+  border-radius: 18px;
 }
 body section #image img {
   width: 100%;
 }
 body section #preparation {
   background-color: hsl(330, 100%, 98%);
+  padding: 24px;
 }
 body section #preparation h3 {
   color: hsl(332, 51%, 32%);
+  margin: 0;
 }
 body section #preparation ul {
   padding: 0 20px;
+  margin-bottom: 0;
 }
 body section #preparation ul li {
   padding: 5px;
@@ -45,6 +58,7 @@ body section #ingredients ul li {
 }
 body section #instructions ol {
   padding: 0 20px;
+  font-weight: 600;
 }
 body section #instructions ol li {
   padding: 0;
@@ -54,7 +68,19 @@ body section #instructions ol li {
 }
 body section #instructions ol li p {
   color: hsl(24, 5%, 18%);
+  font-weight: 400;
 }
-body section #nutrition .sprout {
+body section #instructions ol li p strong {
+  font-weight: 600;
+}
+body section #nutrition #nutty .nuts {
+  display: flex;
+}
+body section #nutrition #nutty .nuts div {
+  width: 50%;
+  margin: 6px auto 6px 24px;
+}
+body section #nutrition #nutty .nuts .sprout {
   color: hsl(14, 45%, 36%);
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

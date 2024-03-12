@@ -10,3 +10,4 @@
 
 - Structured the3 HTML
 - included SASS
+- completed 1440px view
