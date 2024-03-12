@@ -1,0 +1,60 @@
+body {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(30, 54%, 90%);
+}
+body section {
+  width: 505px;
+  margin: 48px auto;
+  background-color: white;
+  color: hsl(24, 5%, 18%);
+  padding: 24px 48px;
+}
+body section h1,
+body section h2 {
+  font-family: "Young Serif", serif;
+}
+body section h2 {
+  color: hsl(14, 45%, 36%);
+}
+body section h3 {
+  color: hsl(14, 45%, 36%);
+}
+body section #image img {
+  width: 100%;
+}
+body section #preparation {
+  background-color: hsl(330, 100%, 98%);
+}
+body section #preparation h3 {
+  color: hsl(332, 51%, 32%);
+}
+body section #preparation ul {
+  padding: 0 20px;
+}
+body section #preparation ul li {
+  padding: 5px;
+}
+body section #ingredients ul {
+  padding: 0 20px;
+}
+body section #ingredients ul li {
+  padding: 5px;
+}
+body section #instructions ol {
+  padding: 0 20px;
+}
+body section #instructions ol li {
+  padding: 5px;
+}
+body section #instructions ol li {
+  color: hsl(14, 45%, 36%);
+}
+body section #instructions ol li p {
+  color: hsl(24, 5%, 18%);
+}
+body section #nutrition .sprout {
+  color: hsl(14, 45%, 36%);
+}/*# sourceMappingURL=style.css.map */
